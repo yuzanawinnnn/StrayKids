@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #111111;
+}
+*{
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.container{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+
+}
+.main-div{
+    width: 100%;
+}
+
+.img-div{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1450px 1000px;
+    
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top:0;
+    left:0;
+    position: absolute;
+   
+}
+.main-div .img-div .nav-bar{
+
+    padding: 20px;
+   
+}
+.main-div .img-div .nav-bar ul{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ font-size: 30px;
+}
+
+.main-div .img-div .nav-bar li{
+    padding: 0px 40px;
+   }
+.nav-bar .logo-list img{
+ width: 250px;
+ height: 150px;
+
+}
+.main-div .img-div .nav-bar ul li a {
+    text-decoration: none;
+    color: #AD0001;
+    text-shadow: 5px 5px 10px rgba(245, 16, 56, 0.4);
+   }
+.video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.video-wrap video{
+    min-width: 100%;
+}
+.btn-big-div{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+    position: relative;
+
+}
+.mockup-smaller{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #111111;
+}
+.mockup-smaller .mockup-img img{
+    width: 550px;
+    height: 650px;
+    margin: 20px;
+    box-shadow: -1px 2px 20px 6px rgba(234, 30, 30, 0.2);
+}
+.vid-cap-big{
+    display: flex;
+    justify-content: center;
+}
+.vid-cap{
+    color:red; 
+    font-size:30px; 
+    text-align: center; 
+    width:300px; 
+    padding: 5px;
+    text-shadow: -4px 0px 10px rgba(245, 16, 64, 0.6);
+    color: #f51040;
+}
+.mockup-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-div a{
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    border: 2px solid #AD0001;
+    text-shadow: -1px 5px 10px rgba(245, 16, 56, 0.8);
+    box-shadow: -3px 6px 20px 13px rgba(173, 0, 1, 0.2);
+    box-shadow: -3px 6px 20px 23px rgba(173, 0, 1, 0.2);
+    width: 300px;
+    height: 100px;
+    padding: 15px 100px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.btn-div a:hover{
+    background-color: #AD0001;
+}
+.gallery-div .row{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.gallery-div .row .col{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.gallery-div .row .col img{
+    width: 800px;
+    height: 500px;
+}
+.gallery-div .row .col-1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.gallery-div .row .col-1 img{
+    width: 800px;
+    height: 1200px;
+}
+
+.main-div .black-div{
+    width: 100%;
+    background-color: #1A1A1A;
+    border: none;
+    padding-bottom: 30px;
+}
+.black-div h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.black-div h4{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 30px;
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+}
+.row-1 > div{
+    width: 250px;
+    height: 320px;
+    background-color: #820701; 
+    border-radius: 2px;
+    margin: 5px;
+    box-shadow: 5px 6px 20px 9px rgba(0, 0, 0, 0.9);
+    transition: 1s ease;
+}
+        
+.row-1 > div:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.row-1 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 2px;
+}
+.row-1 div p{
+    color: grey;
+    
+}
+.row-1 div h3{
+    color: white;
+    font-size: 15px;
+    
+}
+.black-div .row{
+    display: flex;
+    justify-content: center;
+}
+.black-div .row > div{
+    width: 300px;
+    height: 320px;
+    background-color: #212121; 
+    background-color: #820701; 
+    border-radius: 2px;
+    margin: 5px;
+    box-shadow: 5px 6px 20px 9px rgba(0, 0, 0, 0.9);
+    transition: 1s ease;
+}
+        
+.black-div .row > div:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.row img{
+    width: 300px;
+    height: 200px;
+    border-radius: 2px;
+}
+.row div p{
+    color: grey;
+}
+.row div h3{
+    color: white;
+    
+}
+
+
+.des{
+    padding: 0px 30px;
+}
+.yt-div{
+        width: 100%;
+        background-color: #820701;
+        border: none;
+        padding: 30px;
+        
+    }
+
+.yt-div-big{
+    display: flex;
+    justify-content: center;
+}
